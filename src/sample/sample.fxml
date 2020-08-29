@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+
+<AnchorPane fx:controller="sample.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <stylesheets>
+        <URL value="@/css/Style.css"/>
+    </stylesheets>
+    <TextArea fx:id="textArea" layoutX="14.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0"
+              AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0"
+              AnchorPane.topAnchor="20.0"/>
+    <TextField onAction="#onClickBtnSend" fx:id="textField" layoutX="20.0" layoutY="354.0" AnchorPane.bottomAnchor="20.0"
+               AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="100.0"/>
+    <Button layoutX="528.0" layoutY="355.0" mnemonicParsing="false" text="Send" onAction="#onClickBtnSend"
+            AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="20.0"/>
+</AnchorPane>
